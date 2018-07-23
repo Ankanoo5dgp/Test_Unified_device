@@ -26,4 +26,5 @@ include $(DEVICE_PATH)/product/*.mk
 $(call inherit-product-if-exists, vendor/xiaomi/rolex/rolex-vendor.mk)
 
 # Camera
+PRODUCT_PACKAGES += \
     MGC \
