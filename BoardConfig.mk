@@ -23,3 +23,6 @@ include $(DEVICE_PATH)/board/*.mk
 
 # Inherit the proprietary files
 -include vendor/xiaomi/rolex/BoardConfigVendor.mk
+
+# Delete Camera2
+$(shell rm -rf packages/apps/Camera2)
